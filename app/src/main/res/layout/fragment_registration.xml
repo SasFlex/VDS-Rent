@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.RegistrationFragment"
+    android:paddingHorizontal="60dp"
+    android:background="@color/page_bckg_main_color">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="200dp"
+        android:fontFamily="@font/nunito_black"
+        android:text="Регистрация"
+        android:textColor="@color/main_text_color"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/emailInput"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/input_stroke"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:layout_marginTop="25dp"
+        android:hint="Почта"
+        android:text=""
+        android:maxLines="1"
+        android:paddingHorizontal="10dp"
+        android:textColor="@color/main_text_color"
+        android:fontFamily="@font/nunito_bold"/>
+
+    <EditText
+        android:id="@+id/passwordInput"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/input_stroke"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailInput"
+        android:layout_marginTop="25dp"
+        android:hint="Пароль"
+        android:text=""
+        android:maxLines="1"
+        android:paddingHorizontal="10dp"
+        android:textColor="@color/main_text_color"
+        android:fontFamily="@font/nunito_bold"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/action_signUp"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/auth_button_bckg"
+        android:fontFamily="@font/nunito_bold"
+        android:text="Создать"
+        android:textAllCaps="false"
+        android:textColor="@color/page_bckg_main_color"
+        android:textSize="18dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordInput" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

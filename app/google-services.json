@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "642031765102",
+    "project_id": "vds-rent",
+    "storage_bucket": "vds-rent.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642031765102:android:49356082ada4182725887f",
+        "android_client_info": {
+          "package_name": "com.example.sokolov_vds_rent"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAd8BoRV1MtK581qhNEnlXaICAc_f1lfwg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
