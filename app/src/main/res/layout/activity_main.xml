@@ -9,12 +9,13 @@
     android:background="@color/page_bckg_main_color"
     tools:context=".activity.MainActivity">
 
-    <LinearLayout
+    <FrameLayout
+        android:id="@+id/fragment_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center">
 
-    </LinearLayout>
+    </FrameLayout>
 
     <com.google.android.material.navigation.NavigationView
         android:id="@+id/nav_view"
@@ -22,8 +23,7 @@
         android:layout_height="match_parent"
         android:layout_gravity="start"
         app:menu="@menu/nav_menu"
-        android:background="@color/page_bckg_main_color">
-
-    </com.google.android.material.navigation.NavigationView>
+        android:fitsSystemWindows="true"
+        android:background="@color/page_bckg_main_color"/>
 
 </androidx.drawerlayout.widget.DrawerLayout>
