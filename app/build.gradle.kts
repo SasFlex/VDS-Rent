@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.example.sokolov_vds_rent"
-        minSdk = 30
+        minSdk = 28
         targetSdk = 35
         versionCode = 1
         versionName = "1.0"
@@ -49,6 +49,7 @@ dependencies {
     implementation(libs.firebase.database)
     implementation (libs.circleimageview)
     implementation (libs.glide)
+    implementation (libs.picasso)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)

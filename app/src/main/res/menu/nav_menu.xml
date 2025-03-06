@@ -2,10 +2,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group>
         <item android:id="@+id/home" android:title="Главная"/>
+        <item android:id="@+id/orders" android:title="Заказы"/>
         <item android:id="@+id/instuctions" android:title="Инструкция"/>
     </group>
     <group>
         <item android:id="@+id/about_app" android:title="О программе"/>
         <item android:id="@+id/about_developer" android:title="Об авторе"/>
+    </group>
+    <group>
+        <item android:id="@+id/sign_out" android:title="Выйти"/>
     </group>
 </menu>

@@ -3,4 +3,7 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="about_app_text">Данное мобильное приложение предназначено для поиска VDS-серверов по необходимым для пользователя параметрам, а также их аренды.</string>
+    <string name="basic_servers_title">Стартовые сборки</string>
+    <string name="home_page_title">Главная</string>
+    <string name="powerful_category_title">Мощные сборки</string>
 </resources>

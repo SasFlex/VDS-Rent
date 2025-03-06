@@ -4,4 +4,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="main_text_color">#2F2C2C</color>
     <color name="page_bckg_main_color">#FFFCFA</color>
+    <color name="buy_btn_green">#304B2A</color>
 </resources>

@@ -3,12 +3,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/page_bckg_main_color"
+    android:paddingHorizontal="40dp"
     tools:context=".fragment.InstructionsFragment">
 
-    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        style="@style/main_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="14dp"
+        android:text="Инструкции"
+        android:textSize="34dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/nunito_bold"
+        android:textSize="18dp"
+        android:text="☺ Перед входом в приложение пользователю доступен просмотр рекомендуемых серверов, но гостевым пользователям недоступна аренда сервера. \n☺   Пользователю необходимо войти для аренды серверов. Для этого необходимо сделать свайп вправо для открытия меню. \n☺   Пользователь может прокручивать списки серверов на главной страницу свайпами вправо или влево. \n☺  В боковом меню пользователь также может ознакомиться с описанием приложения и информацией о разработчике, а также выйти из аккаунта.\n☺ Пользователь, при отсутствии аккаунта, может зарегестрировать его нажав на соответствующую кнопку на страницу авторизации"
+        android:textColor="@color/main_text_color"/>
 
 </FrameLayout>
